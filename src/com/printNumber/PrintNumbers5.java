@@ -1,4 +1,4 @@
-package com.company;
+package com.printNumber;
 
 public class PrintNumbers5 {
 
