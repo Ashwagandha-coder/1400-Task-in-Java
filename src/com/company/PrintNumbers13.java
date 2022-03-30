@@ -19,6 +19,7 @@ public class PrintNumbers13 {
         printStream.println("Следущее число за числом" + " " + number +" " + "число" + " " + (number + 1));
         printStream.println("Для числа" + " " + number + " " + "преддущее число" + " " + (number - 1));
 
+
     }
 }
 // Task 1.13
