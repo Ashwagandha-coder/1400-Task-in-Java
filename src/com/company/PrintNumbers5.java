@@ -12,3 +12,4 @@ public class PrintNumbers5 {
         System.out.println(2);
     }
 }
+// Task 1.5
