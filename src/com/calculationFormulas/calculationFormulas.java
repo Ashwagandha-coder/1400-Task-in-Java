@@ -8,6 +8,7 @@ public class calculationFormulas {
 
         Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
+        int a = scanner.nextInt();
 
 /*
         int y = 17;
@@ -20,9 +21,11 @@ public class calculationFormulas {
         System.out.println(x1 + " " + x2);
 */
 
-        int function = (int) (17 * Math.pow(x,2) - (6 * x) + 13);
+        int functionA = (int) (17 * Math.pow(x,2) - (6 * x) + 13);
+        int functionB = (int) (3 * Math.pow(a,2) + (5 * a) - 21);
 
-        System.out.println(function);
+        System.out.println(functionA);
+        System.out.println(functionB);
     }
 }
 // Task 2.1
