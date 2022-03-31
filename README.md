@@ -7,3 +7,11 @@ Tasks in Java - (Structure Date, Algorithm, Base, Mathematics and other.........
 
 - 1400 задач по Программированию
 - Решение на языке Java
+
+Глава 1
+-
+"Вывод информации на экран"
+
+- Решение в папке printNumber 
+- (задачи с 1.1 - 1.17)
+
