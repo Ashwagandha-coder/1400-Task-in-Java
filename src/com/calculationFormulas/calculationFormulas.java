@@ -6,10 +6,10 @@ public class calculationFormulas {
 
     public static void main(String[] args) {
 
-       /* Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         int x = scanner.nextInt();
-        */
 
+/*
         int y = 17;
 
         int Discriminant = (int) (Math.pow(6,2) * (-1) + (4 * 17 * 13));
@@ -18,7 +18,11 @@ public class calculationFormulas {
         int x2 = (int) (6 + Math.pow(Discriminant,(0.5)) / (2 * 17));
 
         System.out.println(x1 + " " + x2);
+*/
 
+        int function = (int) (17 * Math.pow(x,2) - (6 * x) + 13);
+
+        System.out.println(function);
     }
 }
 // Task 2.1
