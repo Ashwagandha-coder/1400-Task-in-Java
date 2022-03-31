@@ -11,7 +11,7 @@ public class PrintNumbers17 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int mass[] = new int[5];
+        int[] mass = new int[5];
 
         for (int i = 0; i <= 4; i++) {
             mass[i] = scanner.nextInt();

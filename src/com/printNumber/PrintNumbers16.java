@@ -8,7 +8,7 @@ public class PrintNumbers16 {
 
         Scanner scanner = new Scanner(System.in);
 
-        int mass[] = new int[5];
+        int[] mass = new int[5];
 
         for (int i = 0; i <= 4; i++) {
             mass[i] = scanner.nextInt(); // добавление чисел по порядку варианты а,б,в
