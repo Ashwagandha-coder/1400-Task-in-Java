@@ -12,10 +12,11 @@ public class calculationFormulas33 {
 
     public static void main(String[] args) {
 
-        Init();
+        calculationFormulas33 result = new calculationFormulas33();
+        result.Init();
 
     }
-    private static void Init() {
+    private void Init() {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -25,7 +26,7 @@ public class calculationFormulas33 {
         Print(Difference(AgeX,AgeY,AverageAge(AgeX,AgeY)),AverageAge(AgeX,AgeY));
 
     }
-    private static int AverageAge(int AgeX, int AgeY) {
+    private int AverageAge(int AgeX, int AgeY) {
 
         int Average = AgeX + AgeY;
         Average = Average / 2;
@@ -34,7 +35,7 @@ public class calculationFormulas33 {
 
     }
     @Contract(pure = true)
-    private static int @NotNull [] Difference(int AgeX, int AgeY, int Average) {
+    private int @NotNull [] Difference(int AgeX, int AgeY, int Average) {
 
         int DifferenceAgeX = Average - AgeX;
         int DifferenceAgeY = Average - AgeY;
@@ -46,12 +47,16 @@ public class calculationFormulas33 {
         return Difference;
 
     }
-    private static void Print(int[] Difference, int AverageAge) {
+    private void Print(int[] Difference, int AverageAge) {
 
         PrintStream printStream = new PrintStream(System.out,true, StandardCharsets.UTF_8);
 
         printStream.println("Средний возраст Тани и Мити :" + " " + AverageAge);
         printStream.println("Возраст Тани и Мити отличается на :" + " " + Arrays.toString(Difference));
 
+    }
+    // constructor
+
+    public calculationFormulas33() {
     }
 }
