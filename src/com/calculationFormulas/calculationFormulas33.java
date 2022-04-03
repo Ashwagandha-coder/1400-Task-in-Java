@@ -1,4 +1,4 @@
-/*package com.calculationFormulas;
+package com.calculationFormulas;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
@@ -58,4 +58,4 @@ public class calculationFormulas33 {
     }
 
 }
-*/
+
