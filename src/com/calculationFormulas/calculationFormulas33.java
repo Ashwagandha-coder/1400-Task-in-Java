@@ -1,4 +1,4 @@
-package com.calculationFormulas;
+/*package com.calculationFormulas;
 
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
@@ -7,6 +7,7 @@ import java.io.PrintStream;
 import java.nio.charset.StandardCharsets;
 import java.util.Arrays;
 import java.util.Scanner;
+
 
 public class calculationFormulas33 {
 
@@ -55,8 +56,6 @@ public class calculationFormulas33 {
         printStream.println("Возраст Тани и Мити отличается на :" + " " + Arrays.toString(Difference));
 
     }
-    // constructor
 
-    public calculationFormulas33() {
-    }
 }
+*/
