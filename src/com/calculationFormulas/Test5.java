@@ -1,5 +1,7 @@
 package com.calculationFormulas;
 
+import java.io.Serializable;
+
 public class Test5 {
 
     public static void main(String[] args) {
@@ -9,7 +11,7 @@ public class Test5 {
     }
 
 }
-class Pupils {
+class Pupils implements Serializable {
 
     private static final long serialVersionUID = 2906642554793891381L;
 
