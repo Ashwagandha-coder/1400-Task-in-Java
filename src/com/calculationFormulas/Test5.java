@@ -13,6 +13,7 @@ public class Test5 {
 }
 class Pupils implements Serializable {
 
+
     private static final long serialVersionUID = 2906642554793891381L;
 
     private int id;

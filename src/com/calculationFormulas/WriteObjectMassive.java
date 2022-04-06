@@ -9,6 +9,8 @@ import java.io.ObjectOutputStream;
 
 public class WriteObjectMassive {
 
+
+
     public static void main(String[] args) throws IOException {
 
 
