@@ -12,6 +12,9 @@ public class Test4 {
 }
 class Person implements Serializable {
 
+
+    private static final long serialVersionUID = 7491455048615558638L;
+
     private int id;
     private String name;
 
