@@ -18,6 +18,8 @@ public class WriteObject {
         oos.writeObject(personDan);
         oos.writeObject(personBob);
 
+        oos.close();
+
 
     }
 
