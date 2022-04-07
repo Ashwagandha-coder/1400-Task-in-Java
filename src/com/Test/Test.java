@@ -1,4 +1,4 @@
-package com.calculationFormulas;
+package com.Test;
 
 public class Test {
 

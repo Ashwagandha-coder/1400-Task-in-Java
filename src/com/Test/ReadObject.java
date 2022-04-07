@@ -1,4 +1,6 @@
-package com.calculationFormulas;
+package com.Test;
+
+import com.Test.Person;
 
 import java.io.FileInputStream;
 import java.io.IOException;
