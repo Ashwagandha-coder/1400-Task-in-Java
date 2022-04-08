@@ -20,14 +20,19 @@ public class calculationFormulas31 {
 }
 class PayMentFood implements PayMentTasty {
 
+    // price food
+
     private transient final int applePrice;
     private transient final int cookiePrice;
     private transient final int sweetPrice;
+
+    // count food kilograms
 
     private transient final int x;
     private transient final int y;
     private transient final int z;
 
+    // sum food
 
     private transient int sumApple;
     private transient int sumCoockie;
@@ -45,6 +50,8 @@ class PayMentFood implements PayMentTasty {
         this.y = y;
         this.z = z;
     }
+
+    // Override methods from interface PayMentTasty
 
 
     @Override
