@@ -1,23 +1,37 @@
 package com.calculationFormulas;
 
+import java.util.Scanner;
+
 public class calculationFormulas31 {
+
+    public static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
+        PayMentFood payMentFood = new PayMentFood(scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt(), scanner.nextInt());
+
+        payMentFood.PayMentApple();
+        payMentFood.PayMentCockie();
+        payMentFood.PayMentSweet();
+        payMentFood.Purchases();
 
 
     }
 }
 class PayMentFood implements PayMentTasty {
 
-    private transient int applePrice;
-    private transient int cookiePrice;
-    private transient int sweetPrice;
+    private transient final int applePrice;
+    private transient final int cookiePrice;
+    private transient final int sweetPrice;
 
-    private transient int x;
-    private transient int y;
-    private transient int z;
+    private transient final int x;
+    private transient final int y;
+    private transient final int z;
 
+
+    private transient int sumApple;
+    private transient int sumCoockie;
+    private transient int sumSweet;
 
 
 
@@ -36,24 +50,32 @@ class PayMentFood implements PayMentTasty {
     @Override
     public void PayMentCockie() {
 
-
+        this.sumCoockie = y * cookiePrice;
 
     }
 
     @Override
     public void PayMentApple() {
 
+        this.sumApple = x * applePrice;
+
     }
 
     @Override
     public void PayMentSweet() {
+
+        this.sumSweet = z * sweetPrice;
 
     }
 
     @Override
     public void Purchases() {
 
+        int purchase = sumCoockie + sumApple + sumSweet;
 
+        System.out.println(purchase);
 
     }
+
+
 }
