@@ -2,7 +2,9 @@ package com.calculationFormulas;
 
 import java.util.Scanner;
 
-public class calculationFormulas25 {
+public class calculationFormulas25<lateinit> {
+
+
 
     public static void main(String[] args) {
 
@@ -12,6 +14,8 @@ public class calculationFormulas25 {
 
         square.SquarePar();
         square.PrintValue();
+
+
 
     }
 }
