@@ -15,7 +15,7 @@ public class calculationFormulas24 {
 
 
     }
-    @New
+
     private static void Init() {
 
         Scanner scanner = new Scanner(System.in);
