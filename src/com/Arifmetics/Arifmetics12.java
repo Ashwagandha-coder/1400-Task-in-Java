@@ -13,6 +13,8 @@ public class Arifmetics12 {
         house.floor();
         house.floorAccount();
 
+
+
     }
 
 }
@@ -50,13 +52,13 @@ class House implements Two, One {
         int[] floor4 = new int[4];
         int[] floor5 = new int[4];
 
-        for (int i = 0; i <= 4; i++) {
+        for (int i = 0; i <= 3; i++) {
 
             floor1[i] = i + 1;
 
         }
 
-        for (int i = 4; i <= 8; i++) {
+        for (int i = 4; i <= 7; i++) {
 
             floor2[i] = i + 1;
 
