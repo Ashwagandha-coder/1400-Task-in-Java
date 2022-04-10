@@ -13,6 +13,5 @@ public @interface SecondAnnotation {
     int a() default 1;
 
 
-
 }
 
