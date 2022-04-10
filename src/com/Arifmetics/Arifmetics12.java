@@ -46,41 +46,13 @@ class House implements Two, One {
     @Override
     public void floor() {
 
-        int[] floor1 = new int[4];
-        int[] floor2 = new int[4];
-        int[] floor3 = new int[4];
-        int[] floor4 = new int[4];
-        int[] floor5 = new int[4];
+        int[] floor1 = new int[] {1,2,3,4};
+        int[] floor2 = new int[] {5,6,7,8};
+        int[] floor3 = new int[] {9,10,11,12};
+        int[] floor4 = new int[] {13,14,15,16};
+        int[] floor5 = new int[] {17,18,19,20};
 
-        for (int i = 0; i <= 3; i++) {
 
-            floor1[i] = i + 1;
-
-        }
-
-        for (int i = 4; i <= 7; i++) {
-
-            floor2[i] = i + 1;
-
-        }
-
-        for (int i = 8; i <= 12; i++) {
-
-            floor3[i] = i + 1;
-
-        }
-
-        for (int i = 12; i <= 16; i++) {
-
-            floor4[i] = i + 1;
-
-        }
-
-        for (int i = 16; i <= 20; i++) {
-
-            floor5[i] = i + 1;
-
-        }
 
 
 
