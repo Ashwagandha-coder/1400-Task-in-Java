@@ -19,7 +19,7 @@ class Speed {
     private transient final double kmh;
     private transient final double ms;
 
-    private transient final double CONST = 0.28;
+    public transient final double CONST = 0.28;
 
     public Speed(double kmh, double ms) {
         this.kmh = kmh;
@@ -35,3 +35,4 @@ class Speed {
 
     }
 }
+
