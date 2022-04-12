@@ -1,5 +1,7 @@
 package com.VariantsAction.Test;
 
+import org.jetbrains.annotations.NotNull;
+
 public class test {
 
     public static void main(String[] args) {
@@ -13,7 +15,7 @@ public class test {
         Test(cat);
 
     }
-    public static void Test(Animal animal) {
+    public static void Test(@NotNull Animal animal) {
         animal.eat();
     }
 }
