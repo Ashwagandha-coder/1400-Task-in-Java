@@ -1,7 +1,10 @@
 # 1400 Задач по программированию Д.Златопольский
-Решение на языке Java с использованием Java Core
+Решение на языке Java с использованием всего языка!
 
-🖱�
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJIDEA-000000.svg?style=for-the-badge&logo=intellij-idea&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
 
 ![Задачи обложка](https://user-images.githubusercontent.com/58209188/160906144-fdc4b262-c602-4aa7-af22-902766e53b86.png)
 
@@ -37,6 +40,8 @@
 Глава 4
 -
 "Варианты действий в программе"
+
+- Решение в папке VariantsAction
 
 ![Chapter 4](https://user-images.githubusercontent.com/58209188/161219444-c241586a-8993-4b9c-b29c-0881a03e9418.png)
 
