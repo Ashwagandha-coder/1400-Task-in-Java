@@ -2,13 +2,13 @@ package com.VariantsAction;
 
 public interface SizeCircleSquare {
 
-    public void RadiusCircle();
+    void RadiusCircle();
 
-    public void SideSquare();
+    void SideSquare();
 
-    public void SquareInCircle();
+    void SquareInCircle();
 
-    public void CircleInSquare();
+    void CircleInSquare();
 
 
 }
