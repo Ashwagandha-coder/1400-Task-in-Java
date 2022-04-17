@@ -1,10 +1,19 @@
 package com.VariantsAction;
 
+import java.util.Scanner;
+
 public class VariantsAction31 {
+
+    private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
 
 
+        CompareNumbers compareNumbers = new CompareNumbers(scanner.nextInt());
+        compareNumbers.Split();
+        compareNumbers.OneThree();
+        compareNumbers.OneTwo();
+        compareNumbers.TwoThree();
 
     }
 }
@@ -17,12 +26,10 @@ class CompareNumbers implements ConcreteCompareNumbers {
     private transient int ThreeMark;
 
 
-    public CompareNumbers(int CHISLO, int oneMark, int twoMark, int threeMark) {
+    public CompareNumbers(int CHISLO) {
 
         this.CHISLO = CHISLO;
-        OneMark = oneMark;
-        TwoMark = twoMark;
-        ThreeMark = threeMark;
+
     }
 
 
