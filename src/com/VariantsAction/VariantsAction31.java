@@ -42,14 +42,18 @@ class CompareNumbers implements ConcreteCompareNumbers {
 
         if (OneMark > TwoMark)
             System.out.println("One" + " > " + "Two");
-        else System.out.println("Two" + " > " + "One");
+        else
+            System.out.println("Two" + " > " + "One");
 
     }
 
     @Override
     public void TwoThree() {
 
-        if
+        if (TwoMark > ThreeMark)
+            System.out.println("Two" + " > " + "Three");
+        else
+            System.out.println("Three" + " > " + "Two");
 
     }
 
