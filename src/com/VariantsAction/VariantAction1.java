@@ -81,3 +81,5 @@ interface SmallLarge {
     }
 
 }
+
+// task 4.1
