@@ -8,7 +8,9 @@ public class VariantAction1 {
 
         CompareNumber compareNumber = new CompareNumber();
 
-
+        compareNumber.ReadNumbers();
+        compareNumber.LargeFirstSecond(compareNumber.getFIRST(), compareNumber.getSECOND());
+        compareNumber.SmallFirstSecond(compareNumber.getFIRST(), compareNumber.getSECOND());
 
 
     }
@@ -31,10 +33,18 @@ abstract class Numbers {
 
     }
 
+    public double getFIRST() {
+        return FIRST;
+    }
+
+    public double getSECOND() {
+        return SECOND;
+    }
 }
 
 
 class CompareNumber extends Numbers implements LargeNumbers,SmallLarge {
+
 
 
     @Override
@@ -53,10 +63,7 @@ interface LargeNumbers {
 
     default void LargeFirstSecond(double FIRST, double SECOND) {
 
-        if (FIRST > SECOND)
-            System.out.println(FIRST);
-        else
-            System.out.println(SECOND);
+        System.out.println(Math.max(FIRST, SECOND));
 
     }
 
@@ -69,10 +76,7 @@ interface SmallLarge {
 
     default void SmallFirstSecond(double FIRST, double SECOND) {
 
-        if (FIRST < SECOND)
-            System.out.println(FIRST);
-        else
-            System.out.println(SECOND);
+        System.out.println(Math.min(FIRST, SECOND));
 
     }
 
