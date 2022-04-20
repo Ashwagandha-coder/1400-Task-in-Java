@@ -34,6 +34,8 @@ abstract class Trigonometry {
 
 class SubClassTrigonometry extends Trigonometry implements payMent2 {
 
+    public SubClassTrigonometry() {}
+
 
     @Override
     public void OneVariants() {
@@ -50,6 +52,8 @@ class SubClassTrigonometry extends Trigonometry implements payMent2 {
     }
 
     public void ActionCompare() {
+
+        ReadNumbers2();
 
         if (getChislo() > 0)
             OneVariants();
