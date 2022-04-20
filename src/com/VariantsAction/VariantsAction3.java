@@ -15,6 +15,7 @@ public class VariantsAction3 {
 
 
 
+
 class Trigonometry3 implements payMent3 {
 
     private transient final int CHISLO;
