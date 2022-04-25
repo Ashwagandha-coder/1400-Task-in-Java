@@ -7,13 +7,13 @@ public class LambdaTest {
 
     public static void main(String[] args) {
 
-
-        System.out.println(sum(2,2, (a, b) -> a + b));
-
+        TwoNumbers twoNumbers = (a, b) -> a + b;
+        System.out.println(twoNumbers.AsInt(2,3));
     }
 
     public static int sum(int a, int b, @NotNull TwoNumbers twoNumbers) {
 
+       // int c = twoNumbers.AsInt();
         return a + b;
 
     }
