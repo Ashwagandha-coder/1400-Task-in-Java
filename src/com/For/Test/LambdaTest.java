@@ -8,21 +8,20 @@ public class LambdaTest {
     public static void main(String[] args) {
 
 
-
-       // System.out.println(sum(2,2,(a,b) -> a + b));
+        System.out.println(sum(2,2, (a, b) -> a + b));
 
     }
 
     public static int sum(int a, int b, @NotNull TwoNumbers twoNumbers) {
 
-        return twoNumbers.AsInt();
+        return a + b;
 
     }
 }
 
 interface TwoNumbers {
 
-    public abstract int AsInt();
+    public abstract int AsInt(int a, int b);
 
 }
 
