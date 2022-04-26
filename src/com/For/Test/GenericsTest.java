@@ -36,7 +36,9 @@ public class GenericsTest {
         test(listofAnimals);
         test(listofDog);
 
+        // Тест с классом дженериков
 
+        PorkaDoe<Integer> porkaDoe = new PorkaDoe();
     }
 
     private static void test(@NotNull List<? extends Animal> list) {
@@ -103,6 +105,16 @@ class Dog extends Animal {
     public Dog(int id) {
         this.id = id;
     }
+}
+
+class PorkaDoe<T> {
+
+    public <R> void Lordah(R rot, T dot) {
+
+
+    }
+
+
 }
 
 /*
