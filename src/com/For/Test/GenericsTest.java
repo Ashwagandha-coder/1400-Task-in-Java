@@ -12,6 +12,7 @@ public class GenericsTest {
         char d;
 
         String abc = "new";
+        String edc = "old";
 
         List list = new ArrayList();
 
