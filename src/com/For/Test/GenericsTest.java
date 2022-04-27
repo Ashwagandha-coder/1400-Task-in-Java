@@ -11,6 +11,8 @@ public class GenericsTest {
         int b = 0;
         char d;
 
+        String abc = "new";
+
         List list = new ArrayList();
 
         List list1 = new Stack();
