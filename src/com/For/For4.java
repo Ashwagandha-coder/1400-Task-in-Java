@@ -4,12 +4,6 @@ public class For4 {
 
     public static void main(String[] args) {
 
-//        Byte byteRaw = new Byte((byte) 1);
-//        Character character = new Character();
-//        Integer integer = new Integer();
-//        String string_d = new String();
-//        Float float_e = new Float();
-//        Double double_q = new Double();
 
         new PrintNumber4().doSome();
 
@@ -34,7 +28,7 @@ final class PrintNumber4 {
     public void doSome() { methodsPrint4.MethodprintNumbers4(); }
 
 }
-
+@FunctionalInterface
 interface MethodsPrint4 {
 
     void MethodprintNumbers4();
