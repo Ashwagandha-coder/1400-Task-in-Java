@@ -28,7 +28,7 @@ final class PrintNumbers6  {
 
     public void doSome6() { methodPrints6.methodPrintNumbers6(); }
 }
-
+@FunctionalInterface
 interface MethodPrints6 {
 
     void methodPrintNumbers6();
