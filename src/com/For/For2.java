@@ -4,25 +4,25 @@ public class For2 {
 
     public static void main(String[] args) {
 
-        new PrintNumber100().PrintChislo();
+        new PrintNumber100().PrintOneChislo();
 
     }
 }
 
 class PrintNumber100  {
 
-   // private transient final byte A = 100;
 
-    Print print = a -> {
+    Print print = u -> {
         for (int i = 0; i <= 19; i++)
-            System.out.print(a + " "); };
+            System.out.print(u + " "); };
 
-    public void PrintChislo() {
+    public void PrintOneChislo() {
 
         print.printNumbers2((byte) 100);
     }
 }
 
+@FunctionalInterface
 interface Print {
 
     void printNumbers2(byte a);
