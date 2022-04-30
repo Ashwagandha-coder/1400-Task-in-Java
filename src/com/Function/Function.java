@@ -13,7 +13,7 @@ public class Function {
 
     public static void PrintSm(String sm) {
 
-        for (int i = 0; i <= 59; i++) {
+        for (int i = 1; i <= 60; i++) {
             System.out.print(sm);
         }
 
