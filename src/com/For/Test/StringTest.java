@@ -13,5 +13,7 @@ public class StringTest {
         stringBuilder.append(" in").append(" gun");
         System.out.println(stringBuilder);
 
+        StringBuffer stringBuffer = new StringBuffer();
+
     }
 }
