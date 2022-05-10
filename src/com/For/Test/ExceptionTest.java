@@ -12,6 +12,9 @@ public class ExceptionTest {
         readFiles();
         Exception exception = new Exception();
 
+        RuntimeException runtimeException = new RuntimeException();
+        Error error = new Error();
+
     }
 
 
