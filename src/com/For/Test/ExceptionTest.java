@@ -2,6 +2,8 @@ package com.For.Test;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.rmi.RemoteException;
 import java.util.Scanner;
 
 public class ExceptionTest {
@@ -16,12 +18,14 @@ public class ExceptionTest {
 //        Error error = new Error();
 
         try {
-            throw new ClassCastException();
+            throw new RemoteException();
         }
-        catch (Exception e) {
+        catch (RemoteException e) {
             e.printStackTrace();
             System.out.println("Errork");
         }
+
+
 
 
     }
