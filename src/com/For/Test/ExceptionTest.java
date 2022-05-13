@@ -9,11 +9,20 @@ public class ExceptionTest {
 
     public static void main(String[] args) {
 
-        readFiles();
-        Exception exception = new Exception();
+//        readFiles();
+//        Exception exception = new Exception();
+//
+//        RuntimeException runtimeException = new RuntimeException();
+//        Error error = new Error();
 
-        RuntimeException runtimeException = new RuntimeException();
-        Error error = new Error();
+        try {
+            throw new ClassCastException();
+        }
+        catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Errork");
+        }
+
 
     }
 
