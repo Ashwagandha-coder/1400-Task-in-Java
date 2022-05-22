@@ -16,11 +16,11 @@ final class Print3 {
 
         int i = 1;
 
-        while (i <= 11) {
+        while (i <= 10){
 
 
             System.out.println(string.repeat(i));
-            System.out.println();
+            System.out.print("");
             i += 1;
 
         }

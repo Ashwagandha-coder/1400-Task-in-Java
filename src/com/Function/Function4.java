@@ -1,4 +1,40 @@
 package com.Function;
 
 public class Function4 {
+
+
+    public static void main(String[] args) {
+
+        new Print4().printSymbol4();
+
+    }
 }
+
+final class Print4 {
+
+    private final String string = "* ";
+
+    public void printSymbol4() {
+
+        int i = 1;
+
+        while (i <= 6){
+
+            System.out.println(string.repeat(i));
+            System.out.print("");
+            i += 1;
+
+        }
+        i -= 2;
+
+        while (i >= 1) {
+
+            System.out.println(string.repeat(i));
+            System.out.print("");
+            i -= 1;
+        }
+    }
+
+
+}
+
