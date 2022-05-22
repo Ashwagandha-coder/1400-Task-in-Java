@@ -16,6 +16,8 @@ final class Print4 {
 
     public void printSymbol4() {
 
+
+
         int i = 1;
 
         while (i <= 6){
