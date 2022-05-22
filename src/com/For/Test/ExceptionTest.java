@@ -18,9 +18,9 @@ public class ExceptionTest {
 //        Error error = new Error();
 
         try {
-            throw new RemoteException();
+            throw new RuntimeException();
         }
-        catch (RemoteException e) {
+        catch (RuntimeException e) {
             e.printStackTrace();
             System.out.println("Errork");
         }
