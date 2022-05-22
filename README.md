@@ -116,5 +116,7 @@
 -
 "Использование процедур и функций"
 
+- Решение задач в папке Function
+
 ![Chapter 14](https://user-images.githubusercontent.com/58209188/161219839-1e42fef0-2c82-4ab6-b75a-1b991eaaf72a.png)
 
