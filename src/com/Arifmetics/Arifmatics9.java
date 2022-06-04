@@ -7,6 +7,7 @@ public class Arifmatics9 {
     private static final Scanner scanner = new Scanner(System.in);
     public static void main(String[] args) {
 
+
         new PaymentTime().TestPaymentTime(scanner.nextInt());
 
     }
