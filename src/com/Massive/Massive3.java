@@ -4,7 +4,6 @@ import java.util.Arrays;
 
 public class Massive3 {
 
-
     public static void main(String[] args) {
 
         WriteInMassive writeInMassive = new WriteInMassive();
