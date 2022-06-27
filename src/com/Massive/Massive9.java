@@ -5,7 +5,6 @@ import java.util.Scanner;
 
 public class Massive9 {
 
-
     public static void main(String[] args) {
 
         ViceVersaMassive viceVersaMassive = new ViceVersaMassive();
