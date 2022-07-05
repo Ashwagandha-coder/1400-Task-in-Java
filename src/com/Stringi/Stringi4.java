@@ -14,5 +14,15 @@ public class Stringi4 {
 
         String f1 = str1;
         String f2 = str2;
+
+        printV(f1,f2);
+    }
+
+
+    public static void printV(String s1, String s2) {
+
+        System.out.println(s1 + " " + s2);
+
+
     }
 }
