@@ -1,6 +1,5 @@
 package com.Stringi;
 
-import java.lang.ref.WeakReference;
 import java.util.Scanner;
 
 public class Stringi14 {
